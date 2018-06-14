@@ -1,4 +1,4 @@
-def quiz(answer1, answer2)
+def quiz(answer1, answer2, answer3, answer4, answer5, answer6)
     results = 0
     if answer1 == "Always"
       results += 1
@@ -15,8 +15,9 @@ def quiz(answer1, answer2)
     elsif answer2 == "Use Straws"
       results += 3
     end
+    if answer3 == ""
     
-    answers = [ "You go above and beyond when it comes to being eco-friendly. You reduce, re-use, buy organic, buy green, and recycle every chance you get and respect the earth and environment. You are willing to change your daily, personal life to make a difference in the world. You are doing your part to protect and preserve the environment for future generations. You set a great example for how all people should treat the earth and we thank you for being so eco-conscious and earth-sensitive." , "You doing decently well", "You are pretty eco-friendly! You do your part to re-use, reduce and recycle and to be as energy efficient as possible. Although you take some steps toward a greener tomorrow, you are still stuck in the past when it comes to making a large scale change. But it's never too late to change your habits for a greener tomorrow!" , ]
+    answers = [ "You go above and beyond when it comes to being eco-friendly. You reduce, re-use, buy organic, buy green, and recycle every chance you get and respect the earth and environment. You are willing to change your daily, personal life to make a difference in the world. You are doing your part to protect and preserve the environment for future generations. You set a great example for how all people should treat the earth and we thank you for being so eco-conscious and earth-sensitive." , "You are pretty eco-friendly! You do your part to re-use, reduce and recycle and to be as energy efficient as possible. Although you take some steps toward a greener tomorrow, you are still stuck in the past when it comes to making a large scale change. But it's never too late to change your habits for a greener tomorrow!" , "You aren't very eco-friendly. Although the world around you is getting greener, you still do things that negatively impact the natural world. Don’t worry though…there is still time to do the right thing!"]
     if results >= 10 && results < 3
         return answers[0]
         elsif results >= 14 && results < 5
