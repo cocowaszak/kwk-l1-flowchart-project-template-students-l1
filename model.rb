@@ -17,9 +17,9 @@ def quiz(answer1, answer2)
     end
     
     answers = ["You go above and beyond!", "You doing decently well", "You needa work harder", "idk"]
-    if results >= 0 && results < 3
+    if results >= 10 && results < 3
         return answers[0]
-        elsif results >= 3 && results < 5
+        elsif results >= 14 && results < 5
         return answers[1]
         elsif results >= 5 && results < 7 
         return answers[2]
