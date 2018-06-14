@@ -21,7 +21,7 @@ def quiz(answer1, answer2)
         return answers[0]
         elsif results >= 14 && results < 5
         return answers[1]
-        elsif results >= 5 && results < 7 
+        elsif results >= 18 && results < 7 
         return answers[2]
     end
         
