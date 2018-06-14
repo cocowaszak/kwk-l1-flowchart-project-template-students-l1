@@ -7,7 +7,6 @@ def quiz(answer1, answer2, answer3, answer4, answer5, answer6)
     elsif answer1 == "Never"
       results += 3
     end
-    
     if answer2 == "Everytime"
       results += 1
     elsif answer2 == "If I remember to"
